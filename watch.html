@@ -2,6 +2,8 @@
 <!DOCTYPE html>
 <html>
 <head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
 <style>
   #clock {
       padding:20px;
@@ -40,11 +42,30 @@ li a:hover:not(.active) {
 <body>
 
 <ul>
-  <li><a class="active" href="#home">Home</a></li>
-  <li class="active"><a href="#news">News</a></li>
+  <li><a class="active" href="index.html">Home</a></li>
+  <li class="active"><a href="watch.html">New</a></li>
   <li class="active"><a href="#contact">Contact</a></li>
-  <li class="active"><a href="#about">About</a></li>
+  <li class="active"><a href="profile.html">About</a></li>
 </ul>
+   <div class="container">
+    <div id="clock" class="mt-5"></div>
+  </div>
+  <script>
+    function updateTime() {
+      const now = new Date();
+      const hours = now.getHours().toString().padStart(2, '0');
+      const minutes = now.getMinutes().toString().padStart(2, '0');
+      const seconds = now.getSeconds().toString().padStart(2, '0');
+      const timeString = `${hours}:${minutes}:${seconds}`;
+      document.getElementById('clock').textContent = timeString;
+    }
+
+    updateTime(); // Call updateTime() once to display initial time
+
+    // Update time every second
+    setInterval(updateTime, 1000);
+  </script>
+
 
 </body>
 </html><!--<!DOCTYPE html>
