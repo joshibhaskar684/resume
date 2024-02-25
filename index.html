@@ -21,7 +21,8 @@ padding:19px;
 align-text:centre;
 text-decoration:none;
 }
-li a:hover{background-color: black;}
+li a:hover:not(.active)
+   {background-color: black;}
    .active{
      background-color:#04AA6D;
    }
@@ -29,7 +30,7 @@ li a:hover{background-color: black;}
 </style>
 </head>
 <body style="background-color:white;">
-  <ul>
+  <ul class="active">
     <li class="active"><a href="index.html"><img src="Design 1.png" width="80px"; heigth="85px"></a></li>
     <li class="active"><a href=".py/1234.html" target="_blank">Profile</a></li>
     <li class="active"><a href="contact.html" target="_blank">Contact</a></li>
