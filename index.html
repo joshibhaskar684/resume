@@ -3,6 +3,11 @@
 <head>
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>My First Web Page</title>
+  <script>
+    function goback(){
+        window.history.back();
+    }
+</script>
   <link rel="icon" type="image/x-icon" href="Design 1.png">
  <style>p{float:none;}
 ul{
@@ -65,7 +70,10 @@ li a:hover:not(.active)
   <p><div style="background-color: black; height: 0.1cm; width: auto;">    </div>
   </p>
  <center><button onclick="chat()"><b>back</b></button><button onclick="second()"><b>next</b></button></center>
-   <center><button onclick="calc()"><b>calculator</b></button><button onclick="newp()"><b>new page</b></button></center></div>
+   <center><button onclick="calc()"><b>calculator</b></button><button onclick="newp()"><b>new page</b></button></center>
+ <button onclick=" window.print()"><b>
+    print this page</b>
+</button></center></div>
  
 
 
