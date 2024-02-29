@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Accessing API Data in HTML</title>
+</head>
+<body>
+<!-- HTML elements to display API data -->
+<p><strong>Current Temperature:</strong> <span id="current-temperature"></span></p>
+<p><strong>Current Conditions:</strong> <span id="current-conditions"></span></p>
+
+<script>
+// Fetching data from the API
+fetch('https://weather.visualcrossing.com/VisualCrossingWebServices/rest/services/timeline/haldwani%2Cindia?unitGroup=metric&key=QNHA8BAWA7ERBYE7VLE9C5JWD&contentType=json')
+  .then(response => {
+    if (!response.ok) {
+      throw new Error('Network response was not ok');
+    }
+    return response.json();
+  })
+  .then(data => {
+    // Accessing specific elements from the API response
+    const currentTemperature = data.currentConditions.temp;
+    const currentConditions = data.currentConditions.conditions;
+
+    // Updating HTML elements with API data
+    document.getElementById('current-temperature').textContent = currentTemperature + "°C";
+    document.getElementById('current-conditions').textContent = currentConditions;
+  })
+  .catch(error => {
+    // Handling errors
+    console.error('There was a problem with the fetch operation:', error);
+  });
+</script>
+</body>
+</html>
