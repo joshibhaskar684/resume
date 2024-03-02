@@ -1,0 +1,475 @@
+<!--<!DOCTYPE html>
+<html lang="en">
+
+<head> <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Landing Page</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Anta&family=Kode+Mono:wght@400..700&display=swap"
+    rel="stylesheet">
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <meta charset="UTF-8">
+    <title>Front Page</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <style>
+        .material-symbols-outlined {
+            font-variation-settings:
+                'FILL' 0,
+                'wght' 0,
+                'GRAD' 0,
+                'opsz' NaN
+        }
+
+        ul {
+            list-style-type: none;
+            padding: 0;
+            margin: 0;
+            background-color: #333333;
+            overflow: hidden;
+        }
+
+        li a {
+            float: left
+        }
+
+        li a {
+            color: white;
+            padding: 19px;
+            text-align: center;
+            text-decoration: none;
+        }
+
+        li a:hover:not(.active) {
+            background-color: grey;
+        }
+
+        .active {
+            background-color: #04AA6D;
+        }
+
+        footer {
+            background-color: #333;
+            color: white;
+            padding: 20px;
+            text-align: center;
+
+            bottom: 0;
+            width: 100%;
+        }
+
+        input[type=text] {
+            width: 130px;
+            box-sizing: border-box;
+            border: 2px solid #ccc;
+            border-radius: 4px;
+            font-size: 16px;
+            background-color: white;
+            background-image: url('searchicon.png');
+            background-position: 10px 10px;
+            background-repeat: no-repeat;
+            padding: 12px 20px 12px 40px;
+            transition: width 0.4s ease-in-out;
+            float: right;
+            border-bottom-left-radius: 50px;
+            border-top-left-radius: 50px;
+            border-top-right-radius: 50px;
+            border-bottom-right-radius: 50px;
+
+        }
+
+        input[type=text]:focus {
+            width: 30%;
+        }
+
+        footer {
+            background-color: #333;
+            color: white;
+            padding: 20px;
+            text-align: center;
+
+            bottom: 0;
+            width: 100%;
+        }
+
+        .navbar button[type=submit] {
+            flex-direction: row-reverse;
+            border-bottom-left-radius: 50px;
+            border-top-left-radius: 50px;
+            border-top-right-radius: 50px;
+            border-bottom-right-radius: 50px;
+            float: right;
+            padding: 6px 10px;
+            margin-top: 12px;
+            margin-right: 16px;
+            background: #333;
+            color: white;
+            border: none;
+            cursor: pointer;
+        }
+
+        /* Media Query for devices with max-width 600px */
+        @media screen and (max-width: 600px) {
+            .nav {
+                flex-direction: column;
+            }
+
+            .nav li {
+                margin-right: 0;
+                margin-bottom: 10px;
+            }
+        }
+
+
+        .card {
+            margin-top: 2px;
+            box-shadow: 0 4px 8px 0 rgba(0, 5, 0, 8);
+            transition: 0.3s;
+
+            width: 40%;
+            flex-direction: column-reverse;
+            border-radius: 5px;
+
+        }
+
+        .card:hover {
+            box-shadow: 0 8px 16px 0 rgba(5, 5, 5, 5);
+
+
+        }
+
+        img {
+            border-radius: 5px 5px 0 0;
+            width: 100%
+        }
+
+        .container {
+            padding: 2px 16px;
+            flex-wrap: wrap;
+            justify-content: space-between;
+            font-family: Anta;
+
+        }
+
+
+
+
+        /**
+  width: 100%;
+  box-sizing: border-box;
+  border: 2px solid #ccc;
+  border-radius: 4px;
+  font-size: 16px;
+  background-color: white;
+  background-image: url('searchicon.png');
+  background-position: 10px 10px; 
+  background-repeat: no-repeat;
+  padding: 12px 20px 12px 40px;**/
+
+        .anta-regular {
+            font-family: "Anta", sans-serif;
+            font-weight: 400;
+            font-style: normal;
+        }
+
+        .nav.
+    </style>
+   
+</head>
+
+<body>
+    <nav>
+        <ul>
+            <li><a href="/home"><span class="material-symbols-outlined">
+                        home
+                    </span>Home</a></li>
+            <li><a href="/aboutus"><span class="material-symbols-outlined">
+                        account_circle
+                    </span>About us</a></li>
+            <li><a href="/contactus"><span class="material-symbols-outlined">
+                        mail
+                    </span>Contact us</a></li>
+            <form class="navbar-form" role="search">
+                <input class="form-control" type="search" placeholder="Search" aria-label="Search">
+                <button class="btn btn-success" type="submit"><span class="material-symbols-outlined">
+                        search
+                    </span></button>
+            </form>
+            <li><form><div class="pos">
+            <input type="text" name="search" placeholder="Search.." > <div class="proplay"><span class="material-symbols-outlined">
+                search
+                </span></div>
+          </div></form></li>
+        </ul>
+        </ul>
+    </nav>
+    <section>
+        <div class="card">
+            <img src="photo.jpg" alt="Avatar">
+            <div class="container">
+                <h4><b ">Bhaskar Joshi</b></h4> 
+              <p>Software Engineer</p> 
+            </div>
+          </div>
+        <div class=" containw">
+
+            </div>
+    </section>
+    <footer>
+
+        <p>&copy; Wapp Inc. All rights reserved.</p>
+    </footer>
+</body>
+
+</html>
+
+
+-->
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Anta&family=Kode+Mono:wght@400..700&display=swap"
+    rel="stylesheet">
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <meta charset="UTF-8">
+    <meta charset="UTF-8">
+    <title>Front Page</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <style>
+        .material-symbols-outlined {
+            font-variation-settings:
+                'FILL' 0,
+                'wght' 0,
+                'GRAD' 0,
+                'opsz' NaN
+        }
+
+        ul {height: 100%;
+            z-index: 1;
+            top: 0;
+            left: 0;
+            background-color: #111;
+            overflow-x: hidden;
+            padding-top: 16px;
+            font-family: Anta;
+            list-style-type: none;
+            padding: 0;
+            margin: 0;
+            background-color: #333333;
+            overflow: hidden;
+        }
+
+        li {
+            float: left;
+        }
+
+        li a {
+            color: white;
+            padding: 19px;
+            text-align: center;
+            text-decoration: none;
+            display: block;
+        }
+
+        li a:hover:not(.active) {
+            background-color: grey;
+        }
+
+        .active {
+            background-color: #04AA6D;
+        }
+
+        footer {
+            background-color: #0aec61;
+            color: white;
+            padding: 20px;
+            text-align: center;
+            width: 100%;
+        }
+
+        .card {
+            align-items: centre;
+            font-family: "Anta";
+            margin-top: 2px;
+            box-shadow: 0 4px 8px 0 rgba(0, 5, 0, 8);
+            transition: 0.3s;
+            width: 40%;
+            flex-direction: column-reverse;
+            border-radius: 5px;
+        }
+
+        .card:hover {
+            box-shadow: 0 8px 16px 0 rgba(5, 5, 5, 5);
+        }
+
+        img {
+            border-radius: 5px 5px 0 0;
+            width: 100%
+        }
+
+        .container {
+            font-family: Anta;
+            padding: 2px 16px;
+            flex-wrap: wrap;
+            justify-content: space-between;
+            font-family: Anta;
+        }
+
+        .anta-regular {
+            font-family: "Anta", sans-serif;
+            font-weight: 400;
+            font-style: normal;
+        }
+
+        @media screen and (max-width: 768px) {
+            ul {
+                overflow: auto;
+            }
+            li {
+                float: none;
+                display: inline-block;
+            }
+            .navbar-form {
+                float: none;
+                text-align: center;
+                margin-top: 10px;
+            }
+            input[type="text"] {
+                width: auto;
+                float: none;
+                display: inline-block;
+            }
+            .navbar button[type=submit] {
+                float: none;
+                margin-top: 10px;
+            }
+        }
+        
+li a, .dropbtn {
+  display: inline-block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover, .dropdown:hover .dropbtn {
+  background-color: rgb(13, 236, 91);
+}
+
+li.dropdown {
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #c3c6c4;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+.dropdown-content a:hover {background-color: #f1f1f1;}
+
+.dropdown:hover .dropdown-content {
+  display: block;}
+  .container {
+  text-align: center;
+}
+
+.btn {
+  padding: 10px 20px;
+  font-size: 1rem;
+  background-color: #0e0e0f;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.btn:hover {
+  background-color: #29ec0a;
+}
+
+    </style>
+</head>
+
+<body>
+    <nav>
+        <ul>
+            <li><a href="/home"><span class="material-symbols-outlined">
+                        home
+                    </span>Home</a></li>
+            <li><a href="/aboutus"><span class="material-symbols-outlined">
+                        account_circle
+                    </span>About us</a></li>
+            <li><a href="contaxtus.html"><span class="material-symbols-outlined">
+                        mail
+                    </span>Contact us</a></li>
+            <li><a><span class="material-symbols-outlined">
+                cloud
+                </span>Wapp</a></li>
+            <li><a><span class="material-symbols-outlined">
+                Timer
+                </span>Litime</a></li>
+            
+                <li class="dropdown">
+                    <a href="javascript:void(0)" class="dropbtn"><span class="material-symbols-outlined">
+                        expand_more
+                        </span>More</a>
+                    <div class="dropdown-content">
+                      <a href="smu.html">Surajmal University</a>
+                      <a href="">Calculator</a>
+                      <a href="#">Resume</a>
+                      <a href="#">Print</a>
+                      <a href="#">Current Temperature</a>
+                      <a href="#">Camera</a>
+                    </div>
+                  </li>
+        </ul>
+    </nav>
+    <section>
+        <div class="card">
+            <img src="photo.jpg" alt="Avatar">
+            <div class="container">
+                <h4><b >Bhaskar Joshi</b></h4> 
+              <p>Software Engineer</p> 
+            
+          </div> <div class="container">
+            <h1>Welcome to My Portfolio</h1>
+            <p class="intro">I'm a passionate web developer with a knack for creating stunning and functional websites. Let's build something amazing together!</p>
+            <button class="btn">Learn More</button>
+          </div></div>
+          <script>document.querySelector('.btn').addEventListener('click', function() {
+            alert('Thank you for visiting my portfolio! Let\'s connect and create something amazing together.');
+          });
+          </script>
+        <div class="containw">
+
+        </div>
+    </section>
+   <div ><footer>
+        <p>&copy; Wapp Inc. All rights reserved.</p>
+    </footer></div>
+</body>
+
+</html>
