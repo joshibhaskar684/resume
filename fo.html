@@ -6,15 +6,26 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Anta&family=Kode+Mono:wght@400..700&display=swap"
-    rel="stylesheet">
+        rel="stylesheet">
     <link rel="stylesheet"
         href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Anta&family=Dosis:wght@200..800&family=Kode+Mono:wght@700&display=swap" rel="stylesheet">
+    
     <meta charset="UTF-8">
     <meta charset="UTF-8">
     <title>Front Page</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
     <style>
+    .kode-mono {
+  font-family: "Kode Mono", monospace;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-style: normal;
+}
         .material-symbols-outlined {
             font-variation-settings:
                 'FILL' 0,
@@ -23,7 +34,8 @@
                 'opsz' NaN
         }
 
-        ul {height: 100%;
+        ul {
+            height: 100%;
             z-index: 1;
             top: 0;
             left: 0;
@@ -51,11 +63,11 @@
         }
 
         li a:hover:not(.active) {
-            background-color: grey;
+            background-color: rgb(13, 234, 53);
         }
 
         .active {
-            background-color: #04AA6D;
+            background-color: #570c82;
         }
 
         footer {
@@ -73,9 +85,10 @@
             box-shadow: 0 4px 8px 0 rgba(0, 5, 0, 8);
             transition: 0.3s;
             width: auto;
-            height:auto;
+            height: auto;
             flex-direction: column-reverse;
             border-radius: 5px;
+
         }
 
         .card:hover {
@@ -88,6 +101,7 @@
         }
 
         .container {
+
             font-family: Anta;
             padding: 2px 16px;
             flex-wrap: wrap;
@@ -105,143 +119,215 @@
             ul {
                 overflow: auto;
             }
+
             li {
                 float: none;
                 display: inline-block;
             }
+
             .navbar-form {
                 float: none;
                 text-align: center;
                 margin-top: 10px;
             }
+
             input[type="text"] {
                 width: auto;
                 float: none;
                 display: inline-block;
             }
+
             .navbar button[type=submit] {
                 float: none;
                 margin-top: 10px;
             }
         }
-        
-li a, .dropbtn {
-  display: inline-block;
-  color: white;
-  text-align: center;
-  padding: 14px 16px;
-  text-decoration: none;
-}
 
-li a:hover, .dropdown:hover .dropbtn {
-  background-color: rgb(13, 236, 91);
-}
+        li a,
+        .dropbtn {
+            display: inline-block;
+            color: white;
+            text-align: center;
+            padding: 14px 16px;
+            text-decoration: none;
+        }
 
-li.dropdown {
-  display: inline-block;
-}
+        li a:hover,
+        .dropdown:hover .dropbtn {
+            background-color: rgb(13, 236, 91);
+        }
 
-.dropdown-content {
-  display: none;
-  position: absolute;
-  background-color: #c3c6c4;
-  min-width: 160px;
-  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-  z-index: 1;
-}
+        li.dropdown {
+            display: inline-block;
+        }
 
-.dropdown-content a {
-  color: black;
-  padding: 12px 16px;
-  text-decoration: none;
-  display: block;
-  text-align: left;
-}
+        .dropdown-content {
+            display: none;
+            position: absolute;
+            background-color: #c3c6c4;
+            min-width: 160px;
+            box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+            z-index: 1;
+        }
 
-.dropdown-content a:hover {background-color: #f1f1f1;}
+        .dropdown-content a {
+            color: black;
+            padding: 12px 16px;
+            text-decoration: none;
+            display: block;
+            text-align: left;
+        }
 
-.dropdown:hover .dropdown-content {
-  display: block;}
-  .container {
-  text-align: center;
-}
+        .dropdown-content a:hover {
+            background-color: #f1f1f1;
+        }
 
-.btn {
-     font-family: Anta;
-  padding: 10px 20px;
-  font-size: 1rem;
-  background-color: #0e0e0f;
-  color: #fff;
-  border: none;
-  border-radius: 5px;
-  cursor: pointer;
-  transition: all 0.3s ease;
-}
+        .dropdown:hover .dropdown-content {
+            display: block;
+        }
 
-.btn:hover {
-  background-color: #29ec0a;
-}
+        .container {
+            text-align: center;
+        }
 
+        .btn {
+
+            padding: 10px 20px;
+            font-size: 1rem;
+            background-color: #0e0e0f;
+            color: #fff;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: all 0.3s ease;
+        }
+
+        .btn:hover {
+            background-color: #29ec0a;
+        }
+
+        .features {
+            font-size: 54;
+            font-family: Anta;
+            text-align: center;
+            padding: 50px 0;
+        }
+       
+
+        .cards-container {
+            display: flex;
+            justify-content: space-around;
+            flex-wrap: wrap;
+        }
+
+        .cards {
+            width: calc(33.33% - 20px);
+            /* Adjust width and margin as needed */
+            margin: 0 10px;
+            padding: 20px;
+            background-color: #f0f0f0;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            transition: transform 0.3s ease;
+        }
+
+        .cards:hover {
+            transform: translateY(-10px);
+        }
     </style>
 </head>
 
 <body>
     <nav>
         <ul>
-            <li><a href="fo.html"><span class="material-symbols-outlined">
+            <li><a href="/home"><span class="material-symbols-outlined">
                         home
                     </span>Home</a></li>
-            <li><a href=""><span class="material-symbols-outlined">
+            <li><a href="/aboutus"><span class="material-symbols-outlined">
                         account_circle
                     </span>About us</a></li>
             <li><a href="contaxtus.html"><span class="material-symbols-outlined">
                         mail
                     </span>Contact us</a></li>
-            <li><a href="get.html"><span class="material-symbols-outlined">
-                cloud
-                </span>Wapp</a></li>
-            <li><a href="watch.html"><span class="material-symbols-outlined">
-                Timer
-                </span>Litime</a></li>
-            
-                <li class="dropdown">
-                    <a href="javascript:void(0)" class="dropbtn"><span class="material-symbols-outlined">
+            <li><a><span class="material-symbols-outlined">
+                        cloud
+                    </span>Wapp</a></li>
+            <li><a><span class="material-symbols-outlined">
+                        Timer
+                    </span>Litime</a></li>
+
+            <li class="dropdown">
+                <a href="javascript:void(0)" class="dropbtn"><span class="material-symbols-outlined">
                         expand_more
-                        </span>More</a>
-                    <div class="dropdown-content">
-                      <a href="smu.html">Surajmal University</a>
-                      <a href="LABELSD.html">Calculator</a>
-                      <a href="profile.html">Resume</a>
-                      <a ><button onclick=" window.print()">Print</button></a>
-                      <a href="d.html">Current Temperature</a>
-                      <a href="camera.html">Camera</a>
-                    </div>
-                  </li>
+                    </span>More</a>
+                <div class="dropdown-content">
+                    <a href="smu.html">Surajmal University</a>
+                    <a href="">Calculator</a>
+                    <a href="#">Resume</a>
+                    <a href="#">Print</a>
+                    <a href="#">Current Temperature</a>
+                    <a href="#">Camera</a>
+                </div>
+            </li>
         </ul>
     </nav>
-    <section>
-        <div class="card">
-            <img src="photo.jpg"  alt="My Image" style="filter: contrast(-1) saturate(1) brightness(1) saturate(1); shape-rendering: ; padding: 5px; alt="Avatar">
-            <div class="container">
-                <h4><b >Bhaskar Joshi</b></h4> 
-              <p>Software Engineer</p> 
-            
-          </div> </div><div class="container">
-            <h1>Welcome to My Portfolio</h1>
-            <p class="intro">I'm a passionate web developer with a knack for creating stunning and functional websites. Let's build something amazing together!</p>
-            <button class="btn">Learn More</button>
-          </div></div>
-          <script>document.querySelector('.btn').addEventListener('click', function() {
-            alert('Thank you for visiting my portfolio! Let\'s connect and create something amazing together.');
-          });
-          </script>
-        <div class="containw">
+
+    <div class="card">
+        <img src="photo.jpg" alt="Avatar">
+        <div class="container">
+            <h4><b>Bhaskar Joshi</b></h4>
+            <p>Software Engineer</p>
 
         </div>
+    </div>
+    <div class="container">
+        <h1>Welcome to My Portfolio</h1>
+        <p class="intro">I'm a passionate web developer with a knack for creating stunning and functional websites.
+            Let's build something amazing together!</p>
+        <button class="btn">Learn More</button>
+    </div>
+    </div>
+    <script>document.querySelector('.btn').addEventListener('click', function () {
+            alert('Thank you for visiting my portfolio! Let\'s connect and create something amazing together.');
+        });
+    </script>
+    <div class="containw">
+
+    </div>
+    <div>
+
+    </div>
+    <section class="features">
+        <h2 font-family: "KodeMono", monospace;>Projects</h2>
+        <div class="cards-container">
+            <div class="cards">
+                <img src="photo.jpg" alt="Avatar">
+                <div>
+                <h3>Wapp</h3>
+                <p>Description of feature 1</p></div>
+            </div>
+            <div class="cards">
+                <img src="photo.jpg" alt="Avatar">
+                <div>
+                    <h3>Calculator</h3>
+                    <p>Description of feature 2</p>
+                </div>
+            </div>
+            <div class="cards">
+                <img src="photo.jpg" alt="Avatar">
+                <div>
+                    <h3>Watch</h3>
+                    <p>Description of feature 3</p>
+                </div>
+            </div>
+        </div>
     </section>
-   <div ><footer>
-        <p>&copy; Wapp Inc. All rights reserved.</p>
-    </footer></div>
+
+    <div>
+        <footer>
+            <p>&copy; Wapp Inc. All rights reserved.</p>
+        </footer>
+    </div>
 </body>
 
 </html>
