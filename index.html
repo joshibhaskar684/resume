@@ -3,6 +3,7 @@
 <html lang="en">
 
 <head>
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Anta&family=Kode+Mono:wght@400..700&display=swap"
@@ -59,7 +60,7 @@
         }
 
         footer {
-            background-color: #0aec61;
+            background-color: #0655ff;
             color: white;
             padding: 20px;
             text-align: center;
@@ -134,7 +135,7 @@ li a, .dropbtn {
 }
 
 li a:hover, .dropdown:hover .dropbtn {
-  background-color: rgb(13, 236, 91);
+  background-color:#0655ff;
 }
 
 li.dropdown {
@@ -179,13 +180,36 @@ li.dropdown {
 }
 
 .btn:hover {
-  background-color: #29ec0a;
+  background-color: #0655ff;
 }
+        .pom {
+            font-family: Anta;
+        }
 
     </style>
 </head>
 
-<body><section>
+<body>
+    
+    <div class="pom">
+        <nav class="bg-blue-500 p-4">
+            <div class="container mx-auto flex items-center justify-between">
+                <a href="#" class="text-white font-bold text-xl">Bhaskar Joshi</a>
+                <ul class="flex space-x-4">
+                    <li><a href="index.html" class="text-white hover:underline">Home</a></li>
+                    <li><a href="profile.html" class="text-white hover:underline">About</a></li>
+                    <li><a href="contaxtus.html" class="text-white hover:underline">Contact us</a></li>
+                    <li><a href="123.htnl" class="text-white hover:underline"><span class="material-symbols-outlined">
+                                account_circle
+                            </span></a></li>
+
+
+                    <!-- Add more navigation links as needed -->
+                </ul>
+            </div>
+        </nav>
+    </div>
+    <section>
     <nav>
         <ul>
             <li><a href="fo.html"><span class="material-symbols-outlined">
@@ -240,7 +264,7 @@ li.dropdown {
 
         </div>
     </section>
-   <div ><footer>
+   <div ><footer >
         <p>&copy; Wapp Inc. All rights reserved.</p>
     </footer></div>
 </body>
