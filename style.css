@@ -239,9 +239,11 @@ footer{
     }
     .second{
         font-size: 2vw;
+        text-align:centre;
     }
     .first{
         font-size: 4vw;
+        text-align:centre;
        
     }
     form input{
