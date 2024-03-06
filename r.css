@@ -1,0 +1,305 @@
+*{
+    font-family: Anta;
+}
+
+.anta-regular {
+    font-family: "Anta", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  .pt-sans caption-regular {
+    font-family: "PT Sans Caption", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+  .pt-sans caption-bold {
+    font-family: "PT Sans Caption", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+  }
+  
+  .footer {
+    background-color: #f8f9fa;
+    padding: 20px 0;
+    position: inherit;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+}
+.footers {
+    text-align: center;
+    justify-content: center;
+    margin-top: auto;
+    display: flex;
+    bottom: 10px;;
+    width: 100%;
+    height: auto;
+    
+    
+    overflow: hidden;
+   
+    
+   
+    background-color: #f8f9fa;
+   
+}
+
+.hre{
+    
+    float: left;
+    padding: 15px;
+    
+    list-style-type: none;
+    
+    
+    
+}
+@media only screen  and (max-width: 649px){
+    
+  .footer {
+    font-size: 2vw;
+    background-color: #f8f9fa;
+    padding: 10px 0;
+    position: inherit;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+}
+.footers {
+    text-align: center;
+    justify-content: center;
+    margin-top: auto;
+    display: flex;
+    bottom: 5px;;
+    width: 100%;
+    height: auto;
+    
+    
+    overflow: hidden;
+   
+    
+   
+    background-color: #f8f9fa;
+   
+}
+
+.hre{
+    
+    float: left;
+    padding: 5px;
+    
+    list-style-type: none;
+    
+    
+    
+}
+
+    
+}
+/*.DE p{
+    display: flex;
+    float: right;
+    text-align: center;
+    justify-content: center;
+}*/
+.ty{
+    display: none;
+}
+.gr{
+    
+    width: 500%;
+    display:flex;
+    height:auto;
+    background-color: rgb(130, 229, 227);
+    
+}
+.gr img{
+    float: right;
+    margin-left: 25%;
+}
+.gr1{
+    
+    margin-left:5%;
+    margin-top: 15%;
+}
+.gr2{
+    width:30%;
+    font-family: 'Times New Roman', Times, serif;
+    
+    margin-left:0%;
+    margin-top: 30%;
+}
+
+
+.gr4 {
+    width:30%;
+    float: right;
+    padding: 10px;
+    align-items: center;
+    display: flex;
+    
+ 
+}
+
+.gr5{
+    
+    width:30%;
+    background-color: rgb(31, 158, 227);
+    padding: 10px;
+    
+ 
+}
+
+.gr6{
+    width:30%;
+    background-color:aquamarine;
+    padding: 10px;
+    
+ 
+}
+/*.gr img{
+    background-color: aqua;
+    margin-left: 110%;
+    float: right;
+}**/
+.de{
+    display:flex;
+    margin: 20% ;
+    width: 100%;
+    text-align: center;
+    display: flex;
+    font-family: "PT Sans Caption", sans-serif;
+    font-weight: 700;
+}
+.re{
+    display: flex;
+    margin: 20%;
+    text-align: left;
+
+}
+
+.dee{margin-top: 0%;
+    width: 100%;
+    text-align: center;
+    display: flex;
+    font-weight: 700;
+    font-size: 500;
+    font-family: "PT Sans Caption"
+}
+.deq{margin: 15% ;
+    width: 100%;
+    text-align: center;
+    display: flex;
+    font-weight: 5000;
+    font-size: 500;
+}
+.cl{
+    align-items: center;
+    text-align: center;
+    padding-right: 40px;
+}
+.cll{
+    float: left;
+    margin-right: 0%;
+    margin-top: 30%;
+    
+    
+    
+}
+
+
+
+
+
+.containerr {
+    background-color: #000;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    border: 1px solid #000;
+  }
+  .imagee {
+    margin-top: 5%;
+    margin-right: 0%;
+    float: right;
+    border-radius: 50%;
+    position: relative;
+    top: 0;
+    left: 0;
+   
+  }
+  .textt {
+    margin-top: 30%;
+    align-items: center;
+    justify-content: center;
+    float: left;
+    position: relative;
+    bottom: 10px;
+    left: 10px;
+    color: white;
+    font-size: 18px;
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 5px;
+  }
+  #eles{
+    text-align: center;
+    font-size: 69px;
+    color: rgb(3, 223, 248);
+    font-weight: 900;
+  }
+  .rt{
+    margin-top: 22%;
+    text-align: center;
+    justify-content: center;
+  }
+  .er{
+    margin-left: 25%;
+  }
+  .custom-button {
+    background-color: #2a545b; /* Green */
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+
+  /* Change the color of the button when hovered */
+  .custom-button:hover {
+    background-color: #09bbf6;
+  }
+
+  /* Change the color of the button when active (clicked) */
+  .custom-button:active {
+    background-color: #13ade0;
+  }
+
+  .class {
+    background-color: #357e8d; /* Green */
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+
+  /* Change the color of the button when hovered */
+  .class:hover{
+    background-color: #08d3f2;
+  }
+
+  /* Change the color of the button when active (clicked) */
+  .class:active {
+    background-color: #3e8e41;
+  }
