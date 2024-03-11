@@ -164,3 +164,6 @@ body {
     text-align: center;
     font-size: 2vw;
 }
+.d-inline-block{
+    border-radius:50%;
+}
