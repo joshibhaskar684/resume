@@ -1,0 +1,454 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Automatic Image Changer</title>
+<style>
+    .slideshow-container {
+        max-width: 500px;
+        position: relative;
+        margin: auto;
+    }
+
+    .slide {
+        display: none;
+    }
+
+    .slide img {
+        width: 100%;
+        height: auto;
+    }
+
+    /* Optional: Add styling for the previous and next buttons */
+    .prev, .next {
+        cursor: pointer;
+        position: absolute;
+        top: 50%;
+        width: auto;
+        padding: 16px;
+        margin-top: -22px;
+        color: white;
+        font-weight: bold;
+        font-size: 20px;
+        transition: 0.6s ease;
+        border-radius: 0 3px 3px 0;
+        background-color: rgba(0, 0, 0, 0.5);
+    }
+
+    .next {
+        right: 0;
+        border-radius: 3px 0 0 3px;
+    }
+
+    /* Optional: Add a hover effect for the previous and next buttons */
+    .prev:hover, .next:hover {
+        background-color: rgba(0, 0, 0, 0.8);
+    }
+</style>
+</head>
+<body>
+
+<div class="slideshow-container">
+    <div class="slide fade">
+        <img src="image1.jpg" alt="Image 1">
+    </div>
+    <div class="slide fade">
+        <img src="image2.jpg" alt="Image 2">
+    </div>
+    <div class="slide fade">
+        <img src="image3.jpg" alt="Image 3">
+    </div>
+
+    <!-- Optional: Add previous and next buttons -->
+    <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+    <a class="next" onclick="plusSlides(1)">&#10095;</a>
+</div>
+
+<script>
+    var slideIndex = 0;
+    showSlides();
+
+    function showSlides() {
+        var i;
+        var slides = document.getElementsByClassName("slide");
+        for (i = 0; i < slides.length; i++) {
+            slides[i].style.display = "none";
+        }
+        slideIndex++;
+        if (slideIndex > slides.length) {slideIndex = 1}
+        slides[slideIndex-1].style.display = "block";
+        setTimeout(showSlides, 2000); // Change image every 2 seconds
+    }
+
+    function plusSlides(n) {
+        showSlides(slideIndex += n);
+    }
+</script>
+
+</body>
+</html>
+//second logo
+  .w3 img{
+        border-radius: 50%;
+        height: 25vw;
+        width: 25vw;
+    }
+    .w3 txt{
+        padding: 10px;
+        font-family: "Poppins", sans-serif;
+    font-weight: 1900;
+    font-style: normal;
+  }
+   <h2 class="w3 "><img src="surajmal logo.jpeg">Surajmal University</h2>
+
+
+
+   <!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Google-like Search Button</title>
+<style>
+/* Style the search button */
+.search-button {
+  background-color: #f2f2f2;
+  border: none;
+  color: #000;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 4px;
+}
+
+/* Change the color of the button on hover */
+.search-button:hover {
+  background-color: #ddd;
+}
+</style>
+</head>
+<body>
+
+<input type="text" id="searchInput" placeholder="Search..">
+<button class="search-button" onclick="search()">Search</button>
+
+<script>
+function search() {
+  // Get the search query
+  var query = document.getElementById("searchInput").value;
+
+  // Perform search functionality (you can replace this with your own logic)
+  alert("Searching for: " + query);
+}
+</script>
+
+</body>
+</html>
+
+form for search button
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Google-like Search Button</title>
+<style>
+/* Style the search button */
+.search-button {
+  background-color: aqua; /* Changed to aqua color */
+  border: none;
+  color: #fff; /* Changed text color to white for better contrast */
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 4px;
+  font-weight: bold; /* Make the button text bold */
+  text-shadow: 2px 2px 4px rgba(0,0,0,0.5); /* Apply shadow to text */
+}
+
+/* Change the color of the button on hover */
+.search-button:hover {
+  background-color: #00cccc; /* Darker aqua color on hover */
+}
+ .w3-content {
+        border: 2px solid black;
+        aspect-ratio:  3 /2;
+        max-width: 500px;
+        position: relative;
+        margin: auto;
+        object-fit: cover;
+    }
+</style>
+</head>
+<body>
+<div class="w3-content w3-section " style="max-width:500px">
+    <img class="mySlides" src="smuca.jpg" style="width:100%; height: fit-content;">
+    <img class="mySlides" src="smuca2.jpg" style="width:100%; margin-top: 40px; height: max-content;">
+    <img class="mySlides"
+      src="https://th.bing.com/th/id/OIP.YHYe4pbXeePXMO2W9eARygHaE8?w=283&h=189&c=7&r=0&o=5&dpr=1.3&pid=1.7"
+      style="width:100% ; height: max-content;">
+  </div>
+  
+
+<input type="text" id="searchInput" placeholder="Search..">
+<button class="search-button" onclick="searchGoogle()">Search</button>
+
+<script>
+function searchGoogle() {
+  var query = document.getElementById("searchInput").value;
+  var apiKey = 'YOUR_API_KEY'; // Replace with your API key
+  var cx = 'YOUR_CUSTOM_SEARCH_ENGINE_ID'; // Replace with your CSE ID
+  var url = `https://www.googleapis.com/customsearch/v1?key=${apiKey}&cx=${cx}&q=${query}`;
+
+  fetch(url)
+    .then(response => response.json())
+    .then(data => {
+      // Display search results (you can customize this based on your needs)
+      console.log(data.items);
+      // Example: Displaying search results titles
+      data.items.forEach(item => {
+        console.log(item.title);
+      });
+    })
+    .catch(error => console.error('Error:', error));
+}
+</script>
+
+</body>
+</html>
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Search Form</title>
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<form id="searchForm">
+  <label for="pageOptions">Select a page:</label>
+  <select id="pageOptions">
+    <option value="">Select...</option>
+    <option value="page1.html">Page 1</option>
+    <option value="page2.html">Page 2</option>
+    <option value="page3.html">Page 3</option>
+  </select>
+  <button type="submit">Go</button>
+</form>
+
+<div id="result"></div>
+
+<script src="script.js"></script>
+</body>
+</html>
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Select Options Redirect</title>
+</head>
+<body>
+    <div class="card">
+        <h2>Select Options</h2>
+        <label for="option1">Option 1:</label>
+        <select id="option1" onchange="redirectToPage(this)">
+            <option value="">Select...</option>
+            <option value="https://example.com/page1">Page 1</option>
+            <option value="https://example.com/page2">Page 2</option>
+            <!-- Add more options as needed -->
+        </select>
+        <br>
+        <label for="option2">Option 2:</label>
+        <select id="option2" onchange="redirectToPage(this)">
+            <option value="">Select...</option>
+            <option value="https://example.com/page3">Page 3</option>
+            <option value="https://example.com/page4">Page 4</option>
+            <!-- Add more options as needed -->
+        </select>
+    </div>
+
+    <script>
+        function redirectToPage(selectElement) {
+            var selectedValue = selectElement.value;
+            if (selectedValue !== "") {
+                window.location.href = selectedValue;
+            }
+        }
+    </script>
+</body>
+</html>
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Select Options Redirect</title>
+</head>
+<body>
+    <div class="card">
+        <h2>Select Options</h2>
+        <label for="option1">Option 1:</label>
+        <select id="option1">
+            <option value="">Select...</option>
+            <option value="https://example.com/page1">Page 1</option>
+            <option value="https://example.com/page2">Page 2</option>
+            <!-- Add more options as needed -->
+        </select>
+        <br>
+        <label for="option2">Option 2:</label>
+        <select id="option2">
+            <option value="">Select...</option>
+            <option value="https://example.com/page3">Page 3</option>
+            <option value="https://example.com/page4">Page 4</option>
+            <!-- Add more options as needed -->
+        </select>
+        <br>
+        <button onclick="redirectToSelectedPage()">Submit</button>
+    </div>
+
+    <script>
+        function redirectToSelectedPage() {
+            var option1 = document.getElementById("option1").value;
+            var option2 = document.getElementById("option2").value;
+
+            if (option1 !== "") {
+                window.location.href = option1;
+            } else if (option2 !== "") {
+                window.location.href = option2;
+            } else {
+                alert("Please select an option.");
+            }
+        }
+    </script>
+</body>
+</html>
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Search and Display Page</title>
+</head>
+<body>
+    <div class="card">
+        <h2>Search and Display Page</h2>
+        <input type="text" id="searchInput" placeholder="Enter page URL">
+        <button onclick="displayPage()">Search</button>
+        <div id="pageDisplay"></div>
+    </div>
+
+    <script>
+        function displayPage() {
+            var searchInput = document.getElementById("searchInput").value;
+            var pageDisplay = document.getElementById("pageDisplay");
+
+            // Check if search input is empty
+            if (searchInput.trim() === "") {
+                pageDisplay.innerHTML = "<p>Please enter a page URL.</p>";
+                return;
+            }
+
+            // Create iframe and display the page
+            var iframe = document.createElement('iframe');
+            iframe.src = searchInput;
+            iframe.style.width = '100%';
+            iframe.style.height = '400px'; // Adjust height as needed
+            pageDisplay.innerHTML = ""; // Clear previous content
+            pageDisplay.appendChild(iframe);
+        }
+    </script>
+</body>
+</html>
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Select Option and Redirect</title>
+</head>
+<body>
+    <div class="card">
+        <h2>Select Option and Redirect</h2>
+        <label for="pageSelect">Select a Page:</label>
+        <select id="pageSelect">
+            <option value="">Select...</option>
+            <option value="https://example.com/page1">Page 1</option>
+            <option value="https://example.com/page2">Page 2</option>
+            <!-- Add more options as needed -->
+        </select>
+        <br>
+        <button onclick="redirectToSelectedPage()">Search</button>
+    </div>
+
+    <script>
+        function redirectToSelectedPage() {
+            var selectedPage = document.getElementById("pageSelect").value;
+
+            // Check if a page is selected
+            if (selectedPage.trim() === "") {
+                alert("Please select a page.");
+                return;
+            }
+
+            // Redirect to the selected page
+            window.location.href = selectedPage;
+        }
+    </script>
+</body>
+</html>
+
+
+
+
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Glowing Shadow</title>
+    <style>
+        .glow-box {
+            width: 200px;
+            height: 200px;
+            background-color: #fff; /* Box background color */
+            border-radius: 10px; /* Border radius for rounded corners */
+            box-shadow: 0 0 20px 10px rgba(0, 0, 255, 0.5); /* Initial shadow */
+            animation: glow 1.5s infinite alternate; /* Glowing animation */
+        }
+        
+        @keyframes glow {
+            0% {
+                box-shadow: 0 0 20px 10px rgba(0, 0, 255, 0.5); /* Initial shadow */
+            }
+            100% {
+                box-shadow: 0 0 40px 20px rgba(0, 0, 255, 0.7); /* Final shadow */
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="glow-box"></div>
+</body>
+</html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PHP-HTML Integration</title>
+</head>
+<body>
+    <h1>Welcome to my website</h1>
+
+    <?php
+    // PHP code example
+    $name = "John";
+    echo "<p>Hello, $name!</p>";
+    ?>
+</body>
+</html>
