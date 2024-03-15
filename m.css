@@ -1,196 +1,212 @@
-
 .poppins-thin {
-    font-family: "Poppins", sans-serif;
-    font-weight: 100;
-    font-style: normal;
-  }
-  
-  .poppins-extralight {
-    font-family: "Poppins", sans-serif;
-    font-weight: 200;
-    font-style: normal;
-  }
-  
-  .poppins-light {
-    font-family: "Poppins", sans-serif;
-    font-weight: 300;
-    font-style: normal;
-  }
-  
-  .poppins-regular {
-    font-family: "Poppins", sans-serif;
-    font-weight: 400;
-    font-style: normal;
-  }
-  
-  .poppins-medium {
-    font-family: "Poppins", sans-serif;
-    font-weight: 500;
-    font-style: normal;
-  }
-  
-  .poppins-semibold {
-    font-family: "Poppins", sans-serif;
-    font-weight: 600;
-    font-style: normal;
-  }
-  
-  .poppins-bold {
-    font-family: "Poppins", sans-serif;
-    font-weight: 700;
-    font-style: normal;
-  }
-  
-  .poppins-extrabold {
-    font-family: "Poppins", sans-serif;
-    font-weight: 800;
-    font-style: normal;
-  }
-  
-  .poppins-black {
-    font-family: "Poppins", sans-serif;
-    font-weight: 900;
-    font-style: normal;
-  }
-  
-  .poppins-thin-italic {
-    font-family: "Poppins", sans-serif;
-    font-weight: 100;
-    font-style: italic;
-  }
-  
-  .poppins-extralight-italic {
-    font-family: "Poppins", sans-serif;
-    font-weight: 200;
-    font-style: italic;
-  }
-  
-  .poppins-light-italic {
-    font-family: "Poppins", sans-serif;
-    font-weight: 300;
-    font-style: italic;
-  }
-  
-  .poppins-regular-italic {
-    font-family: "Poppins", sans-serif;
-    font-weight: 400;
-    font-style: italic;
-  }
-  
-  .poppins-medium-italic {
-    font-family: "Poppins", sans-serif;
-    font-weight: 500;
-    font-style: italic;
-  }
-  
-  .poppins-semibold-italic {
-    font-family: "Poppins", sans-serif;
-    font-weight: 600;
-    font-style: italic;
-  }
-  
-  .poppins-bold-italic {
-    font-family: "Poppins", sans-serif;
-    font-weight: 700;
-    font-style: italic;
-  }
-  
-  .poppins-extrabold-italic {
-    font-family: "Poppins", sans-serif;
-    font-weight: 800;
-    font-style: italic;
-  }
-  
-  .poppins-black-italic {
-    font-family: "Poppins", sans-serif;
-    font-weight: 900;
-    font-style: italic;
-  }
-  .anta-regular {
-    font-family: "Anta", sans-serif;
-    font-weight: 400;
-    font-style: normal;
-  }
-  /* style.css */
+  font-family: "Poppins", sans-serif;
+  font-weight: 100;
+  font-style: normal;
+}
+
+.poppins-extralight {
+  font-family: "Poppins", sans-serif;
+  font-weight: 200;
+  font-style: normal;
+}
+
+.poppins-light {
+  font-family: "Poppins", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+}
+
+.poppins-regular {
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.poppins-medium {
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+}
+
+.poppins-semibold {
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  font-style: normal;
+}
+
+.poppins-bold {
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.poppins-extrabold {
+  font-family: "Poppins", sans-serif;
+  font-weight: 800;
+  font-style: normal;
+}
+
+.poppins-black {
+  font-family: "Poppins", sans-serif;
+  font-weight: 900;
+  font-style: normal;
+}
+
+.poppins-thin-italic {
+  font-family: "Poppins", sans-serif;
+  font-weight: 100;
+  font-style: italic;
+}
+
+.poppins-extralight-italic {
+  font-family: "Poppins", sans-serif;
+  font-weight: 200;
+  font-style: italic;
+}
+
+.poppins-light-italic {
+  font-family: "Poppins", sans-serif;
+  font-weight: 300;
+  font-style: italic;
+}
+
+.poppins-regular-italic {
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-style: italic;
+}
+
+.poppins-medium-italic {
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  font-style: italic;
+}
+
+.poppins-semibold-italic {
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  font-style: italic;
+}
+
+.poppins-bold-italic {
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+  font-style: italic;
+}
+
+.poppins-extrabold-italic {
+  font-family: "Poppins", sans-serif;
+  font-weight: 800;
+  font-style: italic;
+}
+
+.poppins-black-italic {
+  font-family: "Poppins", sans-serif;
+  font-weight: 900;
+  font-style: italic;
+}
+
+.anta-regular {
+  font-family: "Anta", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+/* style.css */
 .slider {
-    display: flex;
-    overflow: hidden;
-    animation: slide 10s infinite alternate; /* Adjust duration as needed */
+  display: flex;
+  overflow: hidden;
+  animation: slide 10s infinite alternate;
+  /* Adjust duration as needed */
 }
 
 .slider img {
-    width: 100%;
-    height: auto;
-    transition: transform 0.5s ease;
+  width: 100%;
+  height: auto;
+  transition: transform 0.5s ease;
 }
 
 @keyframes slide {
-    0% {
-        transform: translateX(0);
-    }
-    100% {
-        transform: translateX(-100%);
-    }
+  0% {
+    transform: translateX(0);
+  }
+
+  100% {
+    transform: translateX(-100%);
+  }
 }
 
-  
+
 /* second start here*/
 
 .slideshow-container {
-    max-width: 500px;
-    position: relative;
-    margin: auto;
+  max-width: 500px;
+  position: relative;
+  margin: auto;
 }
 
 .slide {
-    display: none;
+  display: none;
 }
 
 .slide img {
-    width: 100%;
-    height: auto;
+  width: 100%;
+  height: auto;
 }
 
 /* Optional: Add styling for the previous and next buttons */
-.prev, .next {
-    cursor: pointer;
-    position: absolute;
-    top: 50%;
-    width: auto;
-    padding: 16px;
-    margin-top: -22px;
-    color: white;
-    font-weight: bold;
-    font-size: 20px;
-    transition: 0.6s ease;
-    border-radius: 0 3px 3px 0;
-    background-color: rgba(0, 0, 0, 0.5);
+.prev,
+.next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  padding: 16px;
+  margin-top: -22px;
+  color: white;
+  font-weight: bold;
+  font-size: 20px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  background-color: rgba(0, 0, 0, 0.5);
 }
 
 .next {
-    right: 0;
-    border-radius: 3px 0 0 3px;
+  right: 0;
+  border-radius: 3px 0 0 3px;
 }
 
 /* Optional: Add a hover effect for the previous and next buttons */
-.prev:hover, .next:hover {
-    background-color: rgba(0, 0, 0, 0.8);
-}
-.material-symbols-outlined {
-  font-variation-settings:
-  'FILL' 0,
-  'wght' 400,
-  'GRAD' 0,
-  'opsz' 24
+.prev:hover,
+.next:hover {
+  background-color: rgba(0, 0, 0, 0.8);
 }
 
 .material-symbols-outlined {
   font-variation-settings:
-  'FILL' 0,
-  'wght' 400,
-  'GRAD' 0,
-  'opsz' 24
+    'FILL' 0,
+    'wght' 400,
+    'GRAD' 0,
+    'opsz' 24
 }
+
+
+.material-symbols-outlined {
+  font-variation-settings:
+    'FILL' 0,
+    'wght' 400,
+    'GRAD' 0,
+    'opsz' 24
+}
+
+.material-symbols-outlined {
+  font-variation-settings:
+    'FILL' 0,
+    'wght' 700,
+    'GRAD' 200,
+    'opsz' 24
+}
+
 /* body {
   display: flex;
   margin: 0;
@@ -208,82 +224,117 @@
   width: 100%;
   text-align: center;
 }
+
 .footers {
-  
+
   text-align: center;
   justify-content: center;
   margin-top: auto;
   display: flex;
-  bottom: 10px;;
+  bottom: 10px;
+  ;
   width: 100%;
   height: auto;
-  
-  
+
+
   overflow: hidden;
- 
-  
- 
+
+
+
   background-color: #fcfeff;
- 
+
 }
 
 
-.hre{
+.hre {
   filter: grayscale(1);
   width: 15vw;
   height: 15vw;
-  
+
   float: left;
   padding: 15px;
-  
+
   list-style-type: none;
-  
-  
-  
+
+
+
 }
-.hre:hover{
+
+.hre:hover {
   filter: grayscale(0);
 
 }
 
-.e{ 
+.e {
   height: 200px;
-  width: 200px;
-  border: 1px solid black;
+  width: 200px;/*
+  border: 1px solid black;*/
 }
-.container span{
+
+.container span {
   text-align: center;
   font-size: 5vw;
 }
 
+.sidebar {
+  z-index: 1;
+  height: 750px;
+  width: 90px;
+  position: fixed;
+  top: 10;
+  right: 0;
+
+  padding-top: 10px;
+}
+
+.sidebar a {
+  border-radius: 10px 10px;
+  padding: 15px;
+  margin-bottom: 8px;
+  background-color: #0021f8;
+  text-decoration: none;
+  color: #000;
+  display: block;
+  width: 80px;
+  height: 90px;
+
+}
+
 
 /* second slide show*/
-  /* For mobile phones (portrait) */
+/* For mobile phones (portrait) */
 @media only screen and (max-width: 480px) {
-    *{
-        font-family:Anta;}
-    .d-inline-block{
-        border-radius: 50%;
-    }
-    
-    .w3-content {
-      /*order: 2px solid black;*/
-      aspect-ratio:  2.5/1;
-      max-width: 500px;
-      position: relative;
-      margin: auto;
-      object-fit: cover;
+  * {
+    font-family: Anta;
   }
-  .body{
-   background-color: #ffffff;
+
+  .d-inline-block {
+    border-radius: 50%;
   }
-    .firstmovingtext{
-        color: aqua;
-        font-size: 44px;
-        /*border: 2px solid black;*/
-        
-        text-shadow: 0 0 3px #cc00ff, 3px 0 11px #0000ff;
-    }/*
+
+  .w3-content {
+    /*order: 2px solid black;*/
+    aspect-ratio: 2.5/1;
+    max-width: 500px;
+    position: relative;
+    margin: auto;
+    object-fit: cover;
+  }
+
+  .body {
+    background-color: #ffffff;
+  }
+
+  .firstmovingtext {
+    margin-top: 50px;
+    color: aqua;
+    font-size: 44px;
+    /*border: 2px solid black;*/
+
+    text-shadow: 0 0 3px #cc00ff, 3px 0 11px #0000ff;
+  }
+
+  /*
     .iframe{
       height: 400px;
       margin: 10px;
@@ -293,112 +344,194 @@
     .iframes{
       width: 100%;
     }*/
-    .video{
-      /*border: 2px solid black;*/
-      height: 212px;
-      
-      width:100%;
-     }
-     .video video{
-      height: 914px;
-     }
+  .video {
+    /*border: 2px solid black;*/
+    height: 212px;
 
-
-     
-form {
-  margin-bottom: 20px;
-}
-.card{
-  margin-bottom: 20px;
-  height: 200px;
-  width:100%;
-  box-shadow: 0 5px 8px rgba(255, 1, 47, 0.5); /* Initial shadow */
-  animation: glow 1.5s infinite alternate; /* Glowing animation */
-
-}
-.card h2{
-  font-size: 39px;
-  font-weight: 600;
-  
-}
-.card label{
-  margin-left: 6px;
-  font-size: 24px;
-  font-weight: 400;
-}
-.cards{
-  
-  height: 200px;
-  width:90%;
-}
-.cards select{
-  display: flex;
-  justify-content: center;
-  align-items:center;
-  font-size: 16px;
-  width:99%;
-  height: 50px;
-  margin-left: 0px;
-  margin-top: 13px;
-}
-.cards button{
-  display: flex;
-  justify-content: center;
-  background-color:#d4d4d4 ;
-  color: rgb(0, 0, 0);
-  padding: 8px 12px;
-  width: 99%;
-  height: 50px;
-  align-items: center;
-
-}
-#pageselect{
-  border: 2px solid blue;
-}
-h2{
-  padding: 0px;
-  font-weight: bolder;
-}
-.show{
-  border: 1px solid black;
-}
-.iframes {
-  margin-top: 20px;
-  margin-bottom: 20px;
-  width: 200px;
-  height: 200px;
-  background-color: #fff; /* Box background color */
-  border-radius: 10px; /* Border radius for rounded corners */
-  box-shadow: 0 5px 8px rgba(0, 140, 255, 0.5); /* Initial shadow */
-  animation: glow 1.5s infinite alternate; /* Glowing animation */
-}
-
-@keyframes glow {
-  0% {
-      box-shadow: 0 0 7px 9px rgba(81, 255, 0, 0.5); /* Initial shadow */
+    width: 100%;
   }
-  30% {
-    box-shadow: 0 0 7px 9px rgb(132, 0, 255); /* Initial shadow */
+
+  .video video {
+    height: 914px;
+  }
+
+
+
+  form {
+    margin-bottom: 20px;
+  }
+
+  .card {
+    margin-bottom: 20px;
+    height: 200px;
+    width: 100%;
+    box-shadow: 0 5px 8px rgb(0, 0, 0);
+    /* Initial shadow *
+    animation: glow 1.5s infinite alternate;
+    /* Glowing animation */
+
+  }
+
+  .card h2 {
+    font-size: 39px;
+    font-weight: 600;
+
+  }
+
+  .card label {
+    margin-left: 6px;
+    font-size: 24px;
+    font-weight: 400;
+  }
+
+  .cards {
+
+    height: 200px;
+    width: 90%;
+  }
+
+  .cards select {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 16px;
+    width: 99%;
+    height: 50px;
+    margin-left: 0px;
+    margin-top: 13px;
+  }
+
+  .cards button {
+    display: flex;
+    justify-content: center;
+    background-color: #d4d4d4;
+    color: rgb(0, 0, 0);
+    padding: 8px 12px;
+    width: 99%;
+    height: 50px;
+    align-items: center;
+
+  }
+
+  #pageselect {
+    border: 2px solid blue;
+  }
+
+  h2 {
+    padding: 0px;
+    font-weight: bolder;
+  }
+
+  
+
+  .iframes {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    width: 200px;
+    height: 200px;
+    background-color: #fff;
+    /* Box background color */
+    border-radius: 10px;
+    /* Border radius for rounded corners */
+    box-shadow: 0 5px 8px rgb(5, 5, 5);
+    /* Initial shadow *
+    animation: glow 1.5s infinite alternate;
+    /* Glowing animation */
+  }
+
+  @keyframes glow {
+    0% {
+      box-shadow: 0 0 7px 9px rgba(0, 0, 0, 0.5);
+      /* Initial shadow */
+    }
+
+    10% {
+      box-shadow: 0 0 7px 9px rgb(0, 0, 0);
+      /* Initial shadow */
+    }
+  }
+
+  /*30% {
+    box-shadow: 0 0 7px 9px rgb(132, 0, 255); /* Initial shadow *
 }
   50% {
-    box-shadow: 0 0 7px 9px rgba(255, 0, 234, 0.5); /* Initial shadow */
+    box-shadow: 0 0 7px 9px rgba(255, 0, 234, 0.5); /* Initial shadow *
 }
   100% {
-      box-shadow: 0 0 8px 2px rgba(0, 0, 255, 0.7); /* Final shadow */
-  }
-}
-.introd{
+      box-shadow: 0 0 8px 2px rgba(0, 0, 255, 0.7); /* Final shadow *
+  }*/
+
+
+.introd {
+  margin-top: 40px;
   width: 100%;
   height: 450px;
 }
-.cards-title{
+
+.cards-title {
   font-weight: 800;
   font-size: 45px;
   width: 100%;
 }
-.cards-text{
+
+.cards-text {
   font-size: 35px;
   width: 100%;
 }
-    /* Your mobile styles go here */
+
+.sidebar {
+  z-index: 1;
+  height: 300px;
+  width: 65px;
+  position: fixed;
+  top: 10;
+  right: 0;
+
+  padding-top: 150px;
+}
+
+.sidebar a {
+  border-radius: 10px 10px;
+  padding: 5px;
+  margin-bottom: 9px;
+  background-color: rgb(255, 255, 255);
+  
+  text-decoration: none;
+  color: #000;
+  display: block;
+  width: 60px;
+  height: 50px;
+  box-shadow: 0 0 3px #cc00ff, 3px 0 11px #0000ff;
+  
+  
+  text-align: center;
+  text-size-adjust: 34px;
+
+
+}
+.bi{
+  font-weight: 10000;
+  font-size: 30px;
+}
+.introduction{
+  margin-top: 20px;
+  margin-left: 20px;
+  margin-right: 20px;
+  margin-bottom: 90px;
+ text-align: justify;
+ font-size: 19px;
+}
+
+.w3-contents {
+  /*order: 2px solid black;*/
+  aspect-ratio: 16/9;
+  max-width: 500px;
+  position: relative;
+  margin: auto;
+  object-fit: cover;
+}
+.cxrds{
+  display: block;
+}
+/* Your mobile styles go here */
 }
